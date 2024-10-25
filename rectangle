@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+    int a,b,c,l,d;
+    float rect;
+    printf("enter the a,b,c,d values:");
+    scanf("%d%d%d",&a,&b,&c,&d);
+    rect=(2*(l+b));
+    printf("the area of the rectangle:%f",rect);
+}
