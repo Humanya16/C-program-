@@ -1,0 +1,25 @@
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    char op;
+    printf("enter the a,b value:");
+    scanf("%d%d %c",&a,&b,&op);
+    switch(op)
+     {
+          case '+':printf("the adition is %d",a+b);
+                 break;
+       case '-':printf("the sub is %d",a-b);
+                 break;
+           case '*':printf("the mul is %d",a*b);
+                 break;
+         case '/':printf("the division is %d",a/b);
+                 break;
+         case '%':printf("the module is %d",a%b);
+                 break;
+         default:printf("invalid operator");
+                 break;
+                 
+}
+    return 0;
+}
